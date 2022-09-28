@@ -267,7 +267,7 @@ footer{
     margin-bottom: 60px;
 }
 
-/* @media screen and ( max-width:800px ){
+@media screen and ( max-width:800px ){
     .menu-navegacion{
         width: 50vw;
     }
@@ -300,6 +300,9 @@ footer{
         width: 80%;
         justify-content: space-evenly;
     }
+    .social-media-icon{
+        margin-left: 0;
+    }
     .social-media i {
         margin-left: 0;
     }
@@ -308,4 +311,32 @@ footer{
         width: 80%;
         margin-bottom: 40px;
     }
-} */
+}
+
+@media screen and ( max-width:500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+    .hamburgesa{
+        top: 20px;
+        right: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .agregar-imagen{
+        width: 95%;
+    }
+    .img-galeria{
+        width: 80%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .contact-us{
+        width: 90%;
+    }
+}
