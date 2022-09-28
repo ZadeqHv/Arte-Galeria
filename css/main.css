@@ -267,7 +267,7 @@ footer{
     margin-bottom: 60px;
 }
 
-@media screen and ( max-width:800px ){
+/* @media screen and ( max-width:800px ){
     .menu-navegacion{
         width: 50vw;
     }
@@ -303,4 +303,9 @@ footer{
     .social-media i {
         margin-left: 0;
     }
-}
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+} */
