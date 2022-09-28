@@ -22,7 +22,8 @@ body{
 
 header{
     height: 100vh;      
-    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%), url(../img/Educacion.jpg);
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%),
+     url(../img/Educacion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -204,7 +205,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
-.cont-expert     {
+.cont-expert {
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
@@ -245,13 +246,14 @@ footer{
 }
 .brand+p{
     font-weight: 500;
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 .social-midia{
     width: 50%;
     display: flex;
     justify-content: center;
-    
 }
 .social-media-icon{
     display: inline-block;

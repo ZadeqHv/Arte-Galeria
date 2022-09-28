@@ -30,7 +30,6 @@ window.addEventListener('click', e=> {
 const imagenes = document.querySelectorAll('.img-galeria')
 const imageneLight = document.querySelector('.agregar-imagen')
 const contenedorLight = document.querySelector('.imagen-ligth')
-const hamburgesa1 =document.querySelector('.hamburgesa');
 // const shake = document.querySelector('.animation')
 
 imagenes.forEach(imagen =>{
